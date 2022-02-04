@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - print the alhabet
  * Return: allways zero
@@ -6,13 +7,14 @@
 
 int main(void)
 {
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
-int i;
+char i;
 
 
-for (i = 0; i < 27; i++)
+for (i = 'A'; i < 'Z'; ++i)
 {
-putchar(alphabet[i]);
+putchar(tolower(i));
 }
+
+putchar('\n');
 return (0);
 }
