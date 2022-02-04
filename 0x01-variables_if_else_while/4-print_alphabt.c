@@ -6,7 +6,7 @@
 
 int main(void)
 {
-char i[];
+char i[25];
 
 for (i = "a"; i < "z"; i++)
 {
