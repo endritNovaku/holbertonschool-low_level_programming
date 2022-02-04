@@ -6,12 +6,14 @@
 
 int main(void)
 {
-char alphabet[] = "abcdfghijklmnoprstuvwxyz\n";
-int i;
+char i[];
 
-for (i = 0; i < 25; i++)
+for (i = "a"; i < "z"; i++)
 {
-putchar(alphabet[i]);
+if (i == "e" || i == "q") {
+continue;
+}
+putchar(i);
 }
 
 return (0);
