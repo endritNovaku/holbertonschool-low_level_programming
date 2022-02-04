@@ -13,7 +13,7 @@ for (i = 'A'; i <= 'Z'; ++i)
 if (i == 'E' || i == 'Q') {
 continue;
 }
-putchar(tolower(i));
+putchar(i);
 }
 
 return (0);
