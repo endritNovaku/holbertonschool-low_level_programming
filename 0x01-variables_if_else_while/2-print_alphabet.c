@@ -6,7 +6,7 @@
 
 int main(void)
 {
-char alphabet = "abcdefghijklmnopqrstuvwxyz";
+char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
 int i;
 
 
