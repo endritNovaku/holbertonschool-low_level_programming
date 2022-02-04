@@ -6,11 +6,11 @@
 
 int main(void)
 {
-char i[25];
+char i[];
 
-for (i = "a"; i < "z"; i++)
+for (i = "A"; i < "Z"; i++)
 {
-if (i == "e" || i == "q") {
+if (i == "E" || i == "Q") {
 continue;
 }
 putchar(i);
