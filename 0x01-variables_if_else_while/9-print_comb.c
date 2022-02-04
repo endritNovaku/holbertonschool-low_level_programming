@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print all possible combinations of single digits seperated by commas and followed by a space
+ * main - print all combinations of single digits
  * Return: Allways 0
  */
 
