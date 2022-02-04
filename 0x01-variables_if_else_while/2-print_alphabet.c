@@ -6,8 +6,13 @@
 
 int main(void)
 {
-char *alphabet = "abcdefghijklmnopqrstuvwxyz\n";
+char alphabet = "abcdefghijklmnopqrstuvwxyz";
+int i;
 
-putchar(alphabet);
+
+for (i = 0; i < 33; i++)
+{
+putchar(alphabet[i]);
+}
 return (0);
 }
