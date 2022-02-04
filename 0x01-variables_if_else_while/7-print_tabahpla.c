@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - prints reverse alphabet
  * Return: Allways 0
@@ -7,12 +8,13 @@
 int main(void)
 {
 char ch;
-char n = "\n";
 
-for (ch = "z"; ch > "a"; ch++)
+for (ch = "Z"; ch >= "A"; --ch)
 {
-putchar(ch);
-putchar(n);
+putchar(tolower(ch));
+
 }
+putchar('\n');
+
 return (0);
 }
