@@ -7,12 +7,13 @@
 int main(void)
 {
 int i;
+char new_line[] = "\n"
 
 for (i = 0; i <= 9; i++)
 {
 putchar(i);
 }
-putchar("\n");
+putchar(new_line[0]);
 
 return (0);
 }
