@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
  * main - print the alphabet in lowercase and then in uppercase
  * Return: Allways 0
@@ -6,12 +7,14 @@
 
 int main(void)
 {
-char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
 int i;
 
-for (i = 0; i < 53; i++)
+for (i = 'A'; i <= 'Z'; i++)
 {
-putchar(alphabet[i]);
+putchar(tolower(i));
+putchar(i);
 }
+putchar('\n');
+
 return (0);
 }
