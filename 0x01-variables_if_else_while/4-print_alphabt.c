@@ -6,10 +6,10 @@
 
 int main(void)
 {
-char alphabet[] = "abcdfghijklmnoprstuvwxyz";
+char alphabet[] = "abcdfghijklmnoprstuvwxyz\n";
 int i;
 
-for (i = 0; i < 24; i++)
+for (i = 0; i < 25; i++)
 {
 putchar(alphabet[i]);
 }
