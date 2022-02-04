@@ -6,14 +6,14 @@
 
 int main(void)
 {
-char i[];
+char i;
 
 for (i = "A"; i < "Z"; i++)
 {
 if (i == "E" || i == "Q") {
 continue;
 }
-putchar(i);
+putchar(tolower(i));
 }
 
 return (0);
