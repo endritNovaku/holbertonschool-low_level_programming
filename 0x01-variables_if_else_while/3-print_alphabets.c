@@ -17,8 +17,9 @@ putchar(tolower(i));
 for (j = 'A'; j <= 'Z'; ++j)
 {
 putchar(j);
-putchar('\n');
 }
+
+putchar('\n');
 
 return (0);
 }
