@@ -8,6 +8,8 @@ int main(void)
 {
 int i;
 int j;
+int a;
+int b;
 
 for (i = '0'; i <= '9'; i++)
 {
@@ -15,7 +17,10 @@ for (i = '0'; i <= '9'; i++)
 for (j = '0'; j <= '9'; j++)
 {
 
-if ((i,j) > (j,i) && (i,j) != (j,i))
+a = (i,j);
+b = (j,i);
+
+if (a > b && a != b)
 {
 
 putchar(i);
