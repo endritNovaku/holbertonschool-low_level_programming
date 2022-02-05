@@ -11,31 +11,21 @@ int j;
 int a;
 int b;
 
-for (i = '0'; i <= '9'; i++)
+for (i = '0'; i < '9'; i++)
 {
-
-for (j = '0'; j <= '9'; j++)
+for (j = i; j <= '9'; j++)
 {
-
-a = (i,j);
-b = (j,i);
-
-if (a > b && a != b)
+if ( i != j)
 {
-
 putchar(i);
 putchar(j);
-
-if (i != '8')
+}
+if (i == '8')
 {
 putchar(',');
 putchar(' ');
 }
-
 }
-
-}
-
 }
 
 putchar('\n');
