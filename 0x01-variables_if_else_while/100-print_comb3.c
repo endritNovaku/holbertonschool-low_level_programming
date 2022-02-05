@@ -18,7 +18,7 @@ if (i != j)
 putchar(i);
 putchar(j);
 }
-else if (i != '8' || (i != '0' && j != '0'))
+else if (i != '8')
 {
 putchar(',');
 putchar(' ');
