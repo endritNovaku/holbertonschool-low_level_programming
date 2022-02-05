@@ -13,13 +13,17 @@ for (i = '0'; i < '9'; i++)
 {
 for (j = i; j <= '9'; j++)
 {
-if (i != j && i != '8')
+if (i != j)
 {
 putchar(i);
 putchar(j);
+}
+else if (i != '8' || (i != '0' && j != '0'))
+{
 putchar(',');
 putchar(' ');
 }
+
 }
 }
 
