@@ -4,13 +4,8 @@
  * Return: Allways 0
  */
 
-void putchar()
-{
-printf("_putchar\n");
-}
-
 int main(void)
 {
-putchar();
+printf("_putchar\n");
 return (0);
 }
