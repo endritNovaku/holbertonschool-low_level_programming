@@ -10,8 +10,8 @@ while (i < 10)
 {
 while (a <= 'z')
 {
-_putchar(a);
+int _putchar(a);
 }
-_putchar('/n')
+int _putchar('/n')
 }
 }
