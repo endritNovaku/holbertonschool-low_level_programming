@@ -1,10 +1,10 @@
-#include "main.c"
+#include "main.h"
 /**
  * main - entery point
  * Return: Allways 0
  */
 int main(void)
 {
-	void print_alphabet(void);
+	print_alphabet_x10();
 	return (0);
 }
