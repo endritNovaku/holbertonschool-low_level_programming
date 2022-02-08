@@ -10,18 +10,8 @@ while (i < 10)
 {
 while (a <= 'z')
 {
-putchar(a);
-putchar('\n');
+_putchar(a);
 }
+_putchar('/n')
 }
-}
-/**
- * main - print alphabet
- * Return: Allways (0)
- */
-int main(void)
-{
-print_alphabet_x10();
-
-return (0);
 }
