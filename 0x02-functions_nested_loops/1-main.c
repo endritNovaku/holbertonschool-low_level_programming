@@ -5,6 +5,6 @@
  */
 int main(void)
 {
-	print_alphabet_x10();
+	int print_last_digit(int n);
 	return (0);
 }
