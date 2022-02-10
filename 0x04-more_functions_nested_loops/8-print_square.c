@@ -1,4 +1,4 @@
-#include "head.h"
+#include "main.h"
 /**
  * print_square - print square
  * @size: type a digit
