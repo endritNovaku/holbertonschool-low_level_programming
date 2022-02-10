@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	print_line(10);
+	int _isupper('A');
 
 	return (0);
 }
