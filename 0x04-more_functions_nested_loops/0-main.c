@@ -1,13 +1,18 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * main - entery point
- * Return: Allways 0
- */
 
+/**
+ *  * main - check the code
+ *   *
+ *    * Return: Always 0.
+ *     */
 int main(void)
 {
-	int _isupper('A');
+	    char c;
 
-	return (0);
+	        c = '0';
+		    printf("%c: %d\n", c, _isdigit(c));
+		        c = 'a';
+			    printf("%c: %d\n", c, _isdigit(c));
+			        return (0);
 }
