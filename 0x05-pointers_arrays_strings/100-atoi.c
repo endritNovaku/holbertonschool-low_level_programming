@@ -15,16 +15,16 @@ int _atoi(char *s)
 		{
 			if (s[i - 1] == '-')
 			{
-				putchar('-');
+				_putchar('-');
 			}
 
 			if ((s[i + 1] > '9') || (s[i + 1] < '0'))
 			{
-				putchar(s[i]);
+				_putchar(s[i]);
 				break;
 			}
 			res = s[i];
-			putchar(res);
+			_putchar(res);
 		}
 		i++;
 	}
