@@ -22,6 +22,7 @@ int _strcmp(char *s1, char *s2)
 		{
 			diff = 0;
 		}
+		i++;
 	}
 
 	return (diff);
