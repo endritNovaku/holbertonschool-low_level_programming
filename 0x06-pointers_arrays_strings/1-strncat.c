@@ -4,6 +4,7 @@
  * @dest: string
  * @src: string
  * @n: index
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
