@@ -1,0 +1,1 @@
+functions for multiarrays and strings
