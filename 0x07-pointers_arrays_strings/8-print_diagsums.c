@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /*
- * print_diagsum - print sum of diagonal arr
+ * print_diagsums - print sum of diagonal arr
  * @a: array
  * @size: size
  */
