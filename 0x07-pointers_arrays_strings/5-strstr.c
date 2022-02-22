@@ -34,9 +34,5 @@ char *_strstr(char *haystack, char *needle)
 			}
 		}
 	}
-
-	if (nlen != k)
-	{
-		return ("\0");
-	}
+	return ("\0");
 }
