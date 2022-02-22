@@ -22,7 +22,6 @@ char *_strstr(char *haystack, char *needle)
 			if (nlen == k)
 			{
 				return (&haystack[i - 1]);
-				break;
 			}
 
 			if (needle[j] == haystack[i + j])
@@ -36,5 +35,8 @@ char *_strstr(char *haystack, char *needle)
 		}
 	}
 
+	if (nlen != k)
+	{
 		return ("\0");
+	}
 }
