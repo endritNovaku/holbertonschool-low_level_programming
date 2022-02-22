@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_chessboard(char (*a)[8]);
+ * print_chessboard - print chessboard
  * @a: array
  */
 
