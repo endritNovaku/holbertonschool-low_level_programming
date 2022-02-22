@@ -21,6 +21,7 @@ char *_strstr(char *haystack, char *needle)
 		{
 			if (nlen == k)
 			{
+				return (&haystack[i - 1]);
 				break;
 			}
 
@@ -35,12 +36,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 	}
 
-	if (nlen == k)
-	{
-		return (needle);
-	}
-	else
-	{
 		return ("\0");
-	}
 }
