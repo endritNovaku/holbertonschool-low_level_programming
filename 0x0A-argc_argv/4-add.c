@@ -22,11 +22,12 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
+	/*
 	else if (argc > 2 && mul == 0)
 	{
 		printf("Error\n");
 		return (1);
-	}
+	}*/
 	else
 	{
 		printf("%i\n", mul);
