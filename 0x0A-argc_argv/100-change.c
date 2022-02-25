@@ -33,5 +33,5 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("%i\n", coin);
-	return (1);
+	return (0);
 }
