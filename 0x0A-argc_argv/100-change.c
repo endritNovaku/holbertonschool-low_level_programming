@@ -8,15 +8,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int i;
+	int i, j;
 	int coin = 0;
 	int sum = 0;
 	int arr[] = {25, 10, 5, 2, 1};
 
-	if (argc != 1)
+
+	for (j = 0; argv[1][j] != '\0'; j++)
 	{
-		printf("Error\n");
-		return (1);
+		if (argv[1][j] < '0' || argv[1][j] > '9' || argc != 2)
+		{
+			printf("Error\n");
+			return (1);
+		}
 	}
 
 	for (i = 0; arr[i] != '\0'; i++)
