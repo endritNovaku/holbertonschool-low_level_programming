@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *  * _isupper - check if a letter is user or lower case
- *   * @c: type a character
- *    * Return: 0
- *     */
+ * _isupper - check if a letter is user or lower case
+ * @c: type a character
+ * Return: 0
+ */
 
 int _isupper(int c)
 {
