@@ -4,6 +4,7 @@
 /**
  * _strdup - return copy string
  * @str: string
+ * Return: dup
  */
 
 char *_strdup(char *str)
@@ -19,12 +20,12 @@ char *_strdup(char *str)
 	{
 		l++;
 	}
-	dup = malloc(sizeof(char) * l);
+	dup = malloc(sizeof(char) * l + 1);
 	if (dup == NULL)
 	{
 		return (NULL);
 	}
-	for (i = 0; str[i] !='\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		dup[i] = str[i];
 	}
