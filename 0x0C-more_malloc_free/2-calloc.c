@@ -4,6 +4,7 @@
  * _calloc - allocate memory for an array
  * @nmemb: int
  * @size: size of array
+ * Return: alocate
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
