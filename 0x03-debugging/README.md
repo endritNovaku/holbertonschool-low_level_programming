@@ -1,4 +1,4 @@
-#0x03-Debugging
+#Debugging
 
 [0-main.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x03-debugging/0-main.c)
 
