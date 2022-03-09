@@ -52,7 +52,7 @@ int op_div(int a, int b)
  * op_mod - return modulo of two numbers
  * @a: number one
  * @b: number two
- * Return a % b
+ * Return: a % b
  */
 
 int op_mod(int a, int b)
