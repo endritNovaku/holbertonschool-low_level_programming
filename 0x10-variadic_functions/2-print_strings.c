@@ -5,7 +5,7 @@
 /**
  * print_strings - print strings followed by a separator
  * @separator: separator
- * @n number of strings passed to the function
+ * @n: number of strings passed to the function
  * @...: arguments
  */
 
