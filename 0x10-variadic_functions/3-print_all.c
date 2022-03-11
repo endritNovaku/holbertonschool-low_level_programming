@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdarg.h>
-#include <stddef.h>
 #include "variadic_functions.h"
 
 /**
@@ -36,7 +35,11 @@ void print_float(va_list float_list)
  */
 void print_s(va_list s_list)
 {
-	printf("%s", va_arg(s_list, char *));
+	char str = va_arg(s_list, char *);
+	if (str != NULL)
+		printf("%s", va_arg(s_list, char *));
+	else
+		printf("(nil)");
 }
 
 /**
@@ -60,12 +63,16 @@ void print_all(const char* const format, ...)
 	while (format[i] != '\0')
 	{
 		j = 0;
-		while (j < 4)
+		while (j < 4 && format[i] != *print_funcs[i].type)
 		{
+			if (j < 4)
+			{
 			printf("%s", separator);
 			print_funcs[j].print(args_list);
+			separator = ", ";
+			}
+			j++;
 		}
-		separator = ", ";
 		i++;
 	}
 	printf("\n");
