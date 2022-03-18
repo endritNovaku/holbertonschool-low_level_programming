@@ -1,6 +1,6 @@
 Bassic tasks for Variables, if, else and while loops, like check the number if it is negative or positive, print the alphabet using while loop etc.
 
-#Projects for C - Variables, if, else, while
+# Projects for C - Variables, if, else, while
 
 [0-positive_or_negative.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) - Prints whether the number stored in the variable n is positive or negative.
 
