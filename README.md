@@ -1,6 +1,6 @@
-# Low-level Programming & Algorithm - Hatching Out
+A low-level programming language is a programming language that provides little or no abstraction from a computer's instruction set architecture—commands or functions in the language map that are structurally similar to processor's instructions.
 
-On this repository are programms written for the low-level programming and algorithm tract at Holberton School.
+# Low-level Programming & Algorithm - Hatching Out
 
 [0x00-hello_world](https://github.com/endritNovaku/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
 
