@@ -6,9 +6,9 @@ Nested loop means a loop statement inside another loop statement.
 
 [0-putchar.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c) - Prints "\_putchar" followed by a new line.
 
-[10-add.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/10-add.c) - 
+[10-add.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/10-add.c) - Adds two integers and returns the result.
 
-[11-print_to_98.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/11-print_to_98.c)
+[11-print_to_98.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/11-print_to_98.c) - Add a function that print all natural numbers starting from a selected number up to 99, followed by a new line.
 
 [1-alphabet.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c) - Print the alphabet in lowercase, followed by a new line.
 
