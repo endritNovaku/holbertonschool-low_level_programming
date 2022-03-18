@@ -1,4 +1,4 @@
-Bassic tasks for c programming langueage like printing "Hello, World" or run a .C file etc.
+C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on. Belowe are some simple tasks made with C
 
 # C - Hello, World
 
