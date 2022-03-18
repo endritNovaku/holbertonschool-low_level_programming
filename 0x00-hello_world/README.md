@@ -1,4 +1,4 @@
-Bassic tasks for c programming langueage like printing Hello, World run a .C file etc
+Bassic tasks for c programming langueage like printing "Hello, World" or run a .C file etc.
 
 # C - Hello, World
 
