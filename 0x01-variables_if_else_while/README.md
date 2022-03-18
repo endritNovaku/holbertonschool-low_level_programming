@@ -1,4 +1,8 @@
-Bassic tasks for Variables, if, else and while loops, like check the number if it is negative or positive, print the alphabet using while loop etc.
+A variable is nothing but a name given to a storage area that our programs can manipulate.
+
+The if-else statement in C is used to perform the operations based on some specific condition.
+
+While loops statement allows to repeatedly run the same block of code until a condition is met.
 
 # Projects for C - Variables, if, else, while
 
