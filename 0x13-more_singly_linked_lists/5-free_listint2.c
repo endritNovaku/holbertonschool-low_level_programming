@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdlib.h>
 /**
  * listint2 - free list
  * @head: the beginning of the list
