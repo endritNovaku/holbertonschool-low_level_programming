@@ -2,6 +2,12 @@
 #include <stddef.h>
 #include <stdlib.h>
 
+/**
+ * add_nodeint_end - add node at the end
+ * @head: head
+ * @n: element
+ * Return: new_head
+ */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new_head;
@@ -34,7 +40,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		}
 		last->next = new_head;
 
-		return(new_head);
+		return (new_head);
 	}
 
 	return (NULL);
