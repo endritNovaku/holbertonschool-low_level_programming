@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * free_listint - free listint
  * @head: listint
  */
@@ -12,7 +12,7 @@ void free_listint(listint_t *head)
 	while (head != NULL)
 	{
 		node = head;
-		head = head-next;
+		head = head->next;
 		free(node->n);
 		free(node);
 	}
