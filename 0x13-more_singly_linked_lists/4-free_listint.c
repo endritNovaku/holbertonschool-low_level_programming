@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * free_listint - free listint
@@ -13,7 +14,7 @@ void free_listint(listint_t *head)
 	{
 		node = head;
 		head = head->next;
-		free(node->n);
+
 		free(node);
 	}
 }
