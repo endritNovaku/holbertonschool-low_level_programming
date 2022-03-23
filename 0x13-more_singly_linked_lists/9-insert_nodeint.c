@@ -28,6 +28,9 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	i = 0;
 	while (i < (idx - 1))
 	{
+		if (duplicate == NULL || duplicate->next == NULL)
+			return (NULL);
+
 		duplicate = duplicate->next;
 		i++;
 	}
