@@ -54,7 +54,7 @@ void cp(char *file_from, char *file_to)
 	}
 	while (rd != 0)
 	{
-		wd = write(fd, text, rd);
+		wd = write(fd1, text, rd);
 		if (wd == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
