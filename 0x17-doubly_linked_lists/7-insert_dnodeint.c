@@ -4,6 +4,7 @@
  * @h: head node
  * @idx: index to insert the node
  * @n: the node value
+ * Return: newNode
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
@@ -18,7 +19,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	while (idx > 1)
 	{
 		tmp = tmp->next;
-		idx --;
+		idx--;
 	}
 	if (tmp->next == NULL)
 		add_dnodeint_end(&newNode, n);
