@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * delete_denodeint_at_index - delete a node at a given index
+ * delete_dnodeint_at_index - delete a node at a given index
  * @head: head node
  * @index: the index that the node is goint to be deleted
  * Return: 1 on succeeded, 0 fail
@@ -31,5 +31,5 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 			tmp->next->prev = tmp->prev;
 	}
 	free(tmp);
-	return(1);
+	return (1);
 }
