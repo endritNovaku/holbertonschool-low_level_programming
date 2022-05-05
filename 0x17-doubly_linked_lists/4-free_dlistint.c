@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_listint - free a list
+ * free_dlistint - free a list
  * @head: head node
  */
 void free_dlistint(dlistint_t *head)
@@ -10,7 +10,7 @@ void free_dlistint(dlistint_t *head)
 	while (head != NULL)
 	{
 		tmp = head;
-		head = head->next; 
+		head = head->next;
 		free(tmp);
 	}
 }
