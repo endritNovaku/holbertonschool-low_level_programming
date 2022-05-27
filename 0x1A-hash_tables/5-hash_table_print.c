@@ -9,24 +9,24 @@ void hash_table_print(const hash_table_t *ht)
 	hash_node_t *node, *tmp;
 	unsigned long int i, j;
 	char *s;
-	
+
 	s = malloc(sizeof(char *) * 1024);
 
 	for (j = 0; j < ht->size; j++)
-        {
-		if (ht ->array != NULL)
-                        tmp = ht->array[j];
-                while (tmp != NULL)
-                {
+	{
+		if (ht->array != NULL)
+			tmp = ht->array[j];
+		while (tmp != NULL)
+		{
 			s = tmp->key;
-                        tmp = tmp->next;
-                }
-        }
+			tmp = tmp->next;
+		}
+	}
 
 	putchar('{');
 	for (i = 0; i < ht->size; i++)
 	{
-		if (ht ->array != NULL)
+		if (ht->array != NULL)
 			node = ht->array[i];
 		while (node != NULL)
 		{
