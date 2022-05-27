@@ -12,6 +12,8 @@ void hash_table_print(const hash_table_t *ht)
 
 	s = malloc(sizeof(char *) * 1024);
 
+	if (ht == NULL)
+		return;
 	for (j = 0; j < ht->size; j++)
 	{
 		if (ht->array != NULL)
