@@ -35,7 +35,7 @@ void print_float(va_list float_list)
  */
 void print_s(va_list s_list)
 {
-	char str = va_arg(s_list, char *);
+	char *str = va_arg(s_list, char *);
 	if (str != NULL)
 		printf("%s", va_arg(s_list, char *));
 	else
