@@ -1,4 +1,11 @@
 #include "search_algos.h"
+/**
+ * binary_search - search in binary search an array
+ * @array: array to be searched
+ * @size: size of the array
+ * @vaue: value to be found
+ * Return: found value or -1
+ */
 
 int binary_search(int *array, size_t size, int value)
 {
@@ -24,11 +31,11 @@ int binary_search(int *array, size_t size, int value)
 				printf("\n");
 			}
 		}
-		if (array[m] < value)
-                {
-                        l = m + 1;
-                }
-		if (array[m] < value)
+		if (array[m] == value)
+		{
+			return (array[m]);
+		}
+		else if (array[m] < value)
 		{
 			l = m + 1;
 
@@ -36,10 +43,6 @@ int binary_search(int *array, size_t size, int value)
 		else if (array[m] > value)
 		{
 			r = m - 1;
-		}
-		else if (array[m] == value)
-		{
-			return (array[m]);
 		}
 	}
 	return (-1);
