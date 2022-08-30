@@ -3,7 +3,7 @@
  * binary_search - search in binary search an array
  * @array: array to be searched
  * @size: size of the array
- * @vaue: value to be found
+ * @value: value to be found
  * Return: found value or -1
  */
 
